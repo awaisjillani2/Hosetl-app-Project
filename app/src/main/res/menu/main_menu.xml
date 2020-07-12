@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/item1_signup"
+        android:icon="@drawable/ic_main_menu"
+        android:title="Sign Up"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item2_login"
+        android:title="Login"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item3_register_hostel"
+        android:title="Register Hostel"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item4_help"
+        android:title="Help"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/item5_terms_and_conditions"
+        android:title="Terms And Conditions"
+        app:showAsAction="never" />
+
+</menu>

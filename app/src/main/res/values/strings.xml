@@ -1,0 +1,165 @@
+<resources>
+
+    <string name="app_name">Hostel Hub</string>
+
+
+    <!--    SignUp  -->
+
+
+    <string name="txt_register">Registration</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="btn_register">Create Account</string>
+    <string name="next">Next</string>
+    <string name="et_username">Name</string>
+    <string name="et_loginName">Login Name</string>
+    <string name="et_password">Password</string>
+    <string name="et_new_password">New Password</string>
+    <string name="et_confirm_new_password">Confirm New Password</string>
+    <string name="et_CNIC">CNIC#</string>
+    <string name="et_contact">Contact#</string>
+    <string name="houseNo">House No.</string>
+    <string name="streetNo">Street No.</string>
+    <string name="locality">Locality</string>
+    <string name="postalCode">Postal Code</string>
+    <string name="city">City</string>
+    <string name="email_signup">Email</string>
+
+    <!--    HostelSeekerLogin -->
+
+    <string name="txt_login">Login</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_signup">SignUp</string>
+    <string name="txt_resetPassword">Forget Password?</string>
+
+    <!--    Admin    -->
+
+    <string name="hmanager">Hostel Manager</string>
+    <string name="hdetail">Hostel Details</string>
+    <string name="report">Reports</string>
+    <string name="feedbacks">Feedbacks</string>
+    <string name="settings">Settings</string>
+    <string name="name">Muhammad Jan</string>
+    <string name="email">Bcsf16m045@pucit.edu.pk</string>
+    <string name="contact">ph#03406001258</string>
+    <string name="logout">Logout</string>
+
+    <!--    Home    -->
+
+    <string name="title_activity_maps">Map</string>
+    <string name="txt_title">Hostel Hub</string>
+    <string name="txt_slogan">Hostel Ki Talaash</string>
+    <string name="string_et_search_activity_maps">Write any place name ...</string>
+    <string name="btn_add_hostel_rl_activity_main">ADD HOSTEL</string>
+    <string name="btn_search_hostel_rl_activity_main">SEARCH HOSTEL</string>
+    <string name="btn_view_as_admin_rl_activity_main">VIEW AS ADMIN</string>
+
+
+    <!-- Values   -->
+
+    <string name="txt_name_value_ll_hostel_detail">Iqbal Hostel</string>
+
+
+    <!--    Admin HostelSeekerLogin   -->
+    <string name="txt_login_ll_admin_login">Admin Login</string>
+
+
+    <!-- Strings for drawer -->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="menu_addHostel">Add Hostel</string>
+    <string name="menu_viewHostels">View Hostels</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_about">About</string>
+    <string name="menu_Logout">Logout</string>
+    <string name="menu_pp">Privacy Policy</string>
+    <string name="menu_TnC">Terms and Conditions</string>
+
+
+    <!-- Hostel Manager Home Screen -->
+    <!--    Hostel Manager Home-->
+
+    <string name="txt_name_ll_hostel_manager_activity">Ahtisham Javed</string>
+    <string name="txt_email_ll_hostel_manager_activity">Bcsf16m032@pucit.edu.pk</string>
+    <string name="txt_contact_ll_hostel_manager_activity">03354458712</string>
+    <string name="txt_view_hostel_ll_hostel_manager">View Hostels</string>
+    <string name="txt_add_hostel_ll_hostel_manager">Add Hostels</string>
+    <string name="txt_Edit_hostel_ll_hostel_manager">Edit Profile</string>
+
+
+    <!-- Strings for hostel seeker related activities -->
+
+    <string name="sr_no_activity_hostel_detail">Sr #</string>
+    <string name="facility_activity_hostel_detail">Facility</string>
+    <string name="availability_activity_hostel_detail">Availability</string>
+    <string name="one_activity_hostel_detail">1</string>
+    <string name="two_activity_hostel_detail">2</string>
+    <string name="three_activity_hostel_detail">3</string>
+    <string name="four_activity_hostel_detail">4</string>
+    <string name="five_activity_hostel_detail">5</string>
+    <string name="six_activity_hostel_detail">6</string>
+    <string name="seven_activity_hostel_detail">7</string>
+    <string name="eight_activity_hostel_detail">8</string>
+    <string name="mess_activity_hostel_detail">Mess</string>
+    <string name="gas_activity_hostel_detail">Gas</string>
+    <string name="electricity_activity_hostel_detail">Electricity</string>
+    <string name="wifi_activity_hostel_detail">Wifi</string>
+    <string name="ac_activity_hostel_detail">AC</string>
+    <string name="aBaths_activity_hostel_detail">Attached Baths</string>
+    <string name="ratings_activity_hostel_detail">Ratings</string>
+    <string name="request_reservation_activity_hostel_seeker_home">Request Reservation</string>
+    <string name="communicate_activity_hostel_seeker_home">Communicate</string>
+    <string name="delete_account_activity_hostel_seeker_home">Delete Account</string>
+    <string name="edit_profile_activity_hostel_seeker_home">Edit Profile</string>
+    <string name="give_rating_activity_hostel_seeker_home">Give Rating</string>
+    <string name="give_feedback_activity_hostel_seeker_home">Give Feedback</string>
+    <string name="tv_text_popup_rating">Please enter rating in range (1-5)</string>
+    <string name="tv_text_popup_feedback">Please enter comments below</string>
+
+
+    <!-- Hostel Manager Edit Profile -->
+    <string name="title_ll_tv_edit_manager_profile">Edit Profile</string>
+    <string name="btn_save_edit_manager_profile">Save</string>
+
+
+    <!-- Dummy Text -->
+    <string name="dummyText">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas maecenas pharetra convallis posuere morbi. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Facilisis sed odio morbi quis commodo. Netus et malesuada fames ac. Posuere ac ut consequat semper viverra nam. Tincidunt dui ut ornare lectus sit amet. Eget felis eget nunc lobortis. Donec ac odio tempor orci. Mollis aliquam ut porttitor leo a diam. Eget arcu dictum varius duis at consectetur lorem donec massa. Pellentesque habitant morbi tristique senectus et netus. Sagittis orci a scelerisque purus semper eget. At lectus urna duis convallis convallis tellus id. Fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed. Dictumst vestibulum rhoncus est pellentesque elit. Bibendum at varius vel pharetra vel turpis. Tempor orci dapibus ultrices in iaculis nunc sed augue. Vivamus at augue eget arcu dictum varius. Mi eget mauris pharetra et ultrices neque.
+
+        Pulvinar mattis nunc sed blandit libero. A condimentum vitae sapien pellentesque habitant morbi. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Magna ac placerat vestibulum lectus mauris. Lectus sit amet est placerat in. Sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra. Ultrices in iaculis nunc sed. Tellus in hac habitasse platea dictumst vestibulum rhoncus. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Ullamcorper malesuada proin libero nunc consequat. Rutrum quisque non tellus orci. A pellentesque sit amet porttitor. Libero id faucibus nisl tincidunt eget. Odio ut sem nulla pharetra diam sit amet nisl. Faucibus pulvinar elementum integer enim neque volutpat ac.
+
+        Aliquet lectus proin nibh nisl condimentum id venenatis a condimentum. Sed vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Elementum pulvinar etiam non quam lacus suspendisse faucibus interdum.
+    </string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="Send">Send</string>
+    <string name="Sampleleft">Sampleleft</string>
+    <string name="Sample">Sample</string>
+    <string name="enterEmail">Enter Email Address</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="enterCode">Enter a verification code</string>
+    <string name="submit">Submit</string>
+    <string name="forgotPassword">Forgot Password</string>
+    <string name="verifyCode">Code Verification</string>
+    <string name="confirm">Confirm</string>
+
+
+    <!--    OTP Verification-->
+
+    <string name="enterMobileNo">Enter Mobile No#</string>
+    <string name="otpVerification">OTP Verification</string>
+    <string name="otpsend">Send Code</string>
+    <string name="confrimopt">Confirm Code</string>
+    <string name="enteroptcode">Enter Code</string>
+    <string name="confirmcodeotp">Confirm</string>
+
+
+</resources>

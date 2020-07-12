@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:paddingBottom="8dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="8dp"
+    >
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:id="@+id/imgV_imgs_hostel_list_item"
+        android:scaleType="fitXY"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name_hostel_list_item"
+        android:layout_toRightOf="@id/imgV_imgs_hostel_list_item"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="10dp"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_location_hostel_list_item"
+        android:layout_toRightOf="@id/imgV_imgs_hostel_list_item"
+        android:layout_below="@id/tv_name_hostel_list_item"
+        android:paddingLeft="10dp"
+        android:paddingTop="8dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_type_hostel_list_item"
+        android:layout_toRightOf="@id/imgV_imgs_hostel_list_item"
+        android:layout_below="@id/tv_location_hostel_list_item"
+        android:paddingLeft="10dp"
+        android:paddingTop="8dp"
+        android:textSize="15dp"/>
+
+</RelativeLayout>

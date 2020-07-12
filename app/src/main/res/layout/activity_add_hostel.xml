@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+        //hostel name
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_hostel_name"
+            android:text="Hostel Name:"
+            android:textSize="15sp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_hostel_name"
+            android:layout_below="@id/tv_hostel_name"
+            android:maxLength="200"
+            />
+
+        //Address
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Location:"
+            android:id="@+id/tv_location"
+            android:layout_below="@id/et_hostel_name"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_location"
+            android:layout_below="@id/tv_location"
+            android:maxLength="200"
+            />
+        //Beds Rent
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Beds Rent:"
+            android:id="@+id/tv_beds_rent"
+            android:layout_below="@id/et_location"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/et_beds_rent"
+            android:layout_below="@id/tv_beds_rent"
+            android:maxLength="5"
+            />
+        //Total Rooms
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Total No. of Rooms:"
+            android:id="@+id/tv_total_no_of_rooms"
+            android:layout_below="@id/et_beds_rent"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/et_total_no_of_rooms"
+            android:layout_below="@id/tv_total_no_of_rooms"
+            android:maxLength="3"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Available Rooms:"
+            android:id="@+id/tv_avalaible_rooms"
+            android:layout_below="@id/et_total_no_of_rooms"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_available_rooms"
+            android:inputType="number"
+            android:layout_below="@id/tv_avalaible_rooms"
+            android:maxLength="3"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Facilities:"
+            android:id="@+id/tv_facilities"
+            android:layout_below="@id/et_available_rooms"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electricity"
+            android:id="@+id/cb_electricity"
+            android:layout_below="@id/tv_facilities"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gas"
+            android:id="@+id/cb_gas"
+            android:layout_below="@id/cb_electricity"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wi-Fi"
+            android:id="@+id/cb_wifi"
+            android:layout_below="@id/cb_gas"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AC"
+            android:id="@+id/cb_ac"
+            android:layout_below="@id/cb_wifi"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attached Baths"
+            android:id="@+id/cb_attached_baths"
+            android:layout_below="@id/cb_ac"/>
+
+        <CheckBox
+            android:id="@+id/cb_mess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_attached_baths"
+            android:text="Mess" />
+
+        <Button
+            android:id="@+id/btn_upload_images"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_mess"
+
+            android:text="Upload Images"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            />
+                <Button
+            android:id="@+id/btn_add_Hostel_rl_addHOstel_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:layout_marginBottom="5dp"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:layout_below="@id/btn_upload_images"
+            android:layout_marginTop="5dp"
+            />
+
+            <Button
+                android:id="@+id/more_options_rl_addHostel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_add_Hostel_rl_addHOstel_activity"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:layout_marginTop="15dp"
+                android:text="MORE OPTIONS"
+
+                />
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

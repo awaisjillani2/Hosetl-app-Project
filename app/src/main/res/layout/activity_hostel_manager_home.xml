@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HostelManagerHomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+
+            android:src="@mipmap/ic_launcher_round">
+
+        </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_name_ll_hostel_manager_activity"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp">
+
+            </TextView>
+            <View
+                android:layout_width="260dp"
+                android:layout_height="3dp"
+                android:background="@color/colorAccent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_email_ll_hostel_manager_activity"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_contact_ll_hostel_manager_activity"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:layout_marginTop="210dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_view_hostel_ll_hostel_manager"
+            android:textStyle="bold"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/black"
+            android:text="@string/txt_view_hostel_ll_hostel_manager"
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/btn_add_Hostel_ll_hostel_manager_home_activity"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:background="@color/black"
+            android:text="@string/txt_add_hostel_ll_hostel_manager"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:id="@+id/btn_view_ratings_feedbacks_ll_hostel_manager"
+            android:textStyle="bold"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:text="View Ratings/feedbacks"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:id="@+id/btn_communicate_ll_hostel_manager"
+            android:textStyle="bold"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:text="Communicate"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:id="@+id/btn_view_notification_ll_hostel_manager"
+            android:textStyle="bold"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:text="View Notification"
+            android:textColor="@color/white"
+            />
+
+
+        <Button
+            android:id="@+id/btn_Edit_hostel_ll_hostel_manager"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:text="@string/txt_Edit_hostel_ll_hostel_manager"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorAccent"
+            android:text="@string/logout"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

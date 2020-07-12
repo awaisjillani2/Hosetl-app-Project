@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".AddressActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/txt_register"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textSize="38dp"
+            android:layout_marginTop="0dp">
+
+        </TextView>
+        <View
+            android:layout_width="280dp"
+            android:layout_height="3dp"
+            android:background="@color/colorAccent"
+            android:layout_marginBottom="70dp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/et_houseNo_address_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/houseNo"
+            android:width="200dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary">
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_streetNo_address_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/streetNo"
+            android:width="200dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary">
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_postalCode_address_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/postalCode"
+            android:textColor="@color/colorPrimary"
+            android:inputType="number"
+            android:width="200dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/colorPrimary">
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_locality_address_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/locality"
+            android:textColor="@color/colorPrimary"
+            android:width="200dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/colorPrimary">
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_city_address_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/city"
+            android:textColor="@color/colorPrimary"
+            android:width="200dp"
+            android:textColorHint="@color/colorPrimary">
+        </EditText>
+
+        <View
+            android:layout_width="200dp"
+            android:layout_height="3dp"
+            android:background="@color/colorAccent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="40dp"/>
+
+
+        <Button
+            android:id="@+id/btn_create_account_address_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="200dp"
+            android:textStyle="bold"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:layout_marginTop="50dp"
+            android:text="@string/otpsend" />
+
+    </LinearLayout>
+
+
+</ScrollView>

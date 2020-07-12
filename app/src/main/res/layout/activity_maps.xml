@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_top_searchbar_maps_activity"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_height_ll_search_activity_maps"
+        android:layout_marginTop="@dimen/dimen_marginTop_ll_search_activity_maps"
+        android:background="@drawable/custom_border_ll_activity_maps"
+        android:weightSum="10">
+
+        <EditText
+            android:id="@+id/et_location_maps_activity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="9"
+            android:background="@android:color/transparent"
+            android:hint="@string/string_et_search_activity_maps"
+            android:inputType="text" />
+
+        <ImageView
+            android:id="@+id/searchBtn_ImgBtn_mapsActivity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_search_icon" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_below_searchbar_maps_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_top_searchbar_maps_activity">
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/frag_searchbar_maps_activity"
+            android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"/>
+
+    </LinearLayout>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_below_searchbar_maps_activity"
+        tools:context=".MapsActivity" />
+
+</RelativeLayout>

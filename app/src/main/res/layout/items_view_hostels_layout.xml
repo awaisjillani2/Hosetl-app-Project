@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/iv_in_recycler_view"
+        android:layout_width="62dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="image of hostel"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/tv_title_view_hostel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/iv_in_recycler_view"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@id/iv_in_recycler_view"
+        android:text="Title"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_subtitle_view_hostel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtitle"
+        android:layout_below="@id/tv_title_view_hostel"
+        android:layout_alignLeft="@id/tv_title_view_hostel"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:layout_above="@id/tv_delete_view_hostel"
+        android:layout_alignRight="@id/tv_delete_view_hostel"
+        android:id="@+id/tv_edit_view_hostel"
+        android:paddingEnd="5dp"
+        android:textColor="@color/blue"
+        />
+    <TextView
+        android:id="@+id/tv_delete_view_hostel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textColor="@color/blue"
+        android:layout_alignParentRight="true"
+        android:paddingEnd="5dp"
+        android:layout_alignBottom="@id/tv_subtitle_view_hostel"
+
+        />
+
+</RelativeLayout>

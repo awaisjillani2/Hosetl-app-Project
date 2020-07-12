@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoreOptions">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <Button
+            android:id="@+id/btn_termsAndConditions_moreOptions"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:text="@string/menu_TnC"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            />
+        <Button
+            android:id="@+id/btn_Privacy_Policy_moreOptions"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:text="@string/menu_pp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btn_termsAndConditions_moreOptions"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btn_Help_moreOptions"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:text="@string/menu_help"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_below="@id/btn_Privacy_Policy_moreOptions"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btn_about_moreOptions"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:text="@string/menu_about"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/btn_Help_moreOptions"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            />
+        <Button
+            android:id="@+id/btn_logout_moreOptions"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:text="@string/menu_Logout"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_below="@id/btn_about_moreOptions"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            />
+
+    </RelativeLayout>
+
+
+</ScrollView>
