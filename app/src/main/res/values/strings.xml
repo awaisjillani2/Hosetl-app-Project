@@ -39,8 +39,8 @@
     <string name="report">Reports</string>
     <string name="feedbacks">Feedbacks</string>
     <string name="settings">Settings</string>
-    <string name="name">Muhammad Jan</string>
-    <string name="email">Bcsf16m045@pucit.edu.pk</string>
+    <string name="name">Awais Jillani</string>
+    <string name="email">Bsef17m046@pucit.edu.pk</string>
     <string name="contact">ph#03406001258</string>
     <string name="logout">Logout</string>
 
@@ -86,9 +86,9 @@
     <!-- Hostel Manager Home Screen -->
     <!--    Hostel Manager Home-->
 
-    <string name="txt_name_ll_hostel_manager_activity">Ahtisham Javed</string>
-    <string name="txt_email_ll_hostel_manager_activity">Bcsf16m032@pucit.edu.pk</string>
-    <string name="txt_contact_ll_hostel_manager_activity">03354458712</string>
+    <string name="txt_name_ll_hostel_manager_activity">Bilal Mubarak</string>
+    <string name="txt_email_ll_hostel_manager_activity">Bsef17m056@pucit.edu.pk</string>
+    <string name="txt_contact_ll_hostel_manager_activity">03351234567</string>
     <string name="txt_view_hostel_ll_hostel_manager">View Hostels</string>
     <string name="txt_add_hostel_ll_hostel_manager">Add Hostels</string>
     <string name="txt_Edit_hostel_ll_hostel_manager">Edit Profile</string>
